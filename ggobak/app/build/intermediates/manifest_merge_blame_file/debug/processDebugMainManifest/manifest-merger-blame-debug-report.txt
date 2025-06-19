@@ -1,0 +1,260 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.inhatc.ggobak"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="35"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:6:5-80
+11-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:7:5-78
+12-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:8:5-66
+13-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+14-->[com.google.android.libraries.places:places:3.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/f72595b3c4132e9620a16f70e5e018fb/transformed/places-3.3.0/AndroidManifest.xml:11:5-76
+14-->[com.google.android.libraries.places:places:3.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/f72595b3c4132e9620a16f70e5e018fb/transformed/places-3.3.0/AndroidManifest.xml:11:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:20:5-78
+15-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:20:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:22:5-24:33
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:23:8-40
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:24:8-31
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:27:5-30:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:29:7-61
+24-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:29:16-59
+25    </queries>
+26
+27    <permission
+27-->[androidx.core:core:1.13.0] /Users/jun/.gradle/caches/8.11.1/transforms/6453366c621763e6380198004f61793c/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+28        android:name="com.inhatc.ggobak.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.13.0] /Users/jun/.gradle/caches/8.11.1/transforms/6453366c621763e6380198004f61793c/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.13.0] /Users/jun/.gradle/caches/8.11.1/transforms/6453366c621763e6380198004f61793c/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.inhatc.ggobak.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.13.0] /Users/jun/.gradle/caches/8.11.1/transforms/6453366c621763e6380198004f61793c/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.13.0] /Users/jun/.gradle/caches/8.11.1/transforms/6453366c621763e6380198004f61793c/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:10:5-50:19
+34        android:allowBackup="true"
+34-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:11:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.13.0] /Users/jun/.gradle/caches/8.11.1/transforms/6453366c621763e6380198004f61793c/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:12:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:13:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:14:9-43
+41        android:label="@string/app_name"
+41-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:15:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:16:9-54
+43        android:supportsRtl="true"
+43-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:17:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.Ggobak"
+45-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:19:9-44
+46        android:usesCleartextTraffic="true" >
+46-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:18:9-44
+47        <meta-data
+47-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:22:9-24:71
+48            android:name="com.google.android.geo.API_KEY"
+48-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:23:13-58
+49            android:value="AIzaSyA-RLUPiGjXQwnQEehQEVTcOiC4GVBA5Uk" />
+49-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:24:13-68
+50
+51        <activity
+51-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:26:9-34:20
+52            android:name="com.inhatc.ggobak.LoginActivity"
+52-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:27:13-42
+53            android:exported="true"
+53-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:28:13-36
+54            android:screenOrientation="portrait" >
+54-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:29:13-49
+55            <intent-filter>
+55-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:30:13-33:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:31:17-69
+56-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:31:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:32:17-77
+58-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:32:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:36:9-39:52
+62            android:name="com.inhatc.ggobak.MainActivity"
+62-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:37:13-41
+63            android:exported="false"
+63-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:38:13-37
+64            android:screenOrientation="portrait" />
+64-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:39:13-49
+65        <activity
+65-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:41:9-44:52
+66            android:name="com.inhatc.ggobak.SignupActivity"
+66-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:42:13-43
+67            android:exported="false"
+67-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:43:13-37
+68            android:screenOrientation="portrait" />
+68-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:44:13-49
+69        <activity
+69-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:46:9-48:40
+70            android:name="com.inhatc.ggobak.CalendarActivity"
+70-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:47:13-45
+71            android:exported="false" />
+71-->/Users/jun/AndroidStudioProjects/android/ggobak/app/src/main/AndroidManifest.xml:48:13-37
+72        <activity
+72-->[com.google.android.libraries.places:places:3.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/f72595b3c4132e9620a16f70e5e018fb/transformed/places-3.3.0/AndroidManifest.xml:15:9-21:20
+73            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+73-->[com.google.android.libraries.places:places:3.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/f72595b3c4132e9620a16f70e5e018fb/transformed/places-3.3.0/AndroidManifest.xml:16:13-91
+74            android:exported="false"
+74-->[com.google.android.libraries.places:places:3.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/f72595b3c4132e9620a16f70e5e018fb/transformed/places-3.3.0/AndroidManifest.xml:17:13-37
+75            android:label="@string/places_autocomplete_label"
+75-->[com.google.android.libraries.places:places:3.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/f72595b3c4132e9620a16f70e5e018fb/transformed/places-3.3.0/AndroidManifest.xml:18:13-62
+76            android:theme="@style/PlacesAutocompleteOverlay"
+76-->[com.google.android.libraries.places:places:3.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/f72595b3c4132e9620a16f70e5e018fb/transformed/places-3.3.0/AndroidManifest.xml:19:13-61
+77            android:windowSoftInputMode="adjustResize" >
+77-->[com.google.android.libraries.places:places:3.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/f72595b3c4132e9620a16f70e5e018fb/transformed/places-3.3.0/AndroidManifest.xml:20:13-55
+78        </activity> <!-- Needs to be explicitly declared on P+ -->
+79        <uses-library
+79-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:33:7-86
+80            android:name="org.apache.http.legacy"
+80-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:33:21-58
+81            android:required="false" />
+81-->[com.google.android.gms:play-services-maps:19.2.0] /Users/jun/.gradle/caches/8.11.1/transforms/d8444155a1c10401afe3b126daa184cf/transformed/play-services-maps-19.2.0/AndroidManifest.xml:33:59-83
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:18.5.0] /Users/jun/.gradle/caches/8.11.1/transforms/352bdef7ccd1c30081aa6eb5d901abf7/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:18.5.0] /Users/jun/.gradle/caches/8.11.1/transforms/352bdef7ccd1c30081aa6eb5d901abf7/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:18.5.0] /Users/jun/.gradle/caches/8.11.1/transforms/352bdef7ccd1c30081aa6eb5d901abf7/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:18.5.0] /Users/jun/.gradle/caches/8.11.1/transforms/352bdef7ccd1c30081aa6eb5d901abf7/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:18.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/9f31fa9f11864490ef30b8a80113a7ad/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:18.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/9f31fa9f11864490ef30b8a80113a7ad/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.gms:play-services-basement:18.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/9f31fa9f11864490ef30b8a80113a7ad/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+91
+92        <provider
+92-->[androidx.emoji2:emoji2:1.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e0289c3568d06e11a82d2a85122dcff2/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+93            android:name="androidx.startup.InitializationProvider"
+93-->[androidx.emoji2:emoji2:1.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e0289c3568d06e11a82d2a85122dcff2/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+94            android:authorities="com.inhatc.ggobak.androidx-startup"
+94-->[androidx.emoji2:emoji2:1.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e0289c3568d06e11a82d2a85122dcff2/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+95            android:exported="false" >
+95-->[androidx.emoji2:emoji2:1.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e0289c3568d06e11a82d2a85122dcff2/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+96            <meta-data
+96-->[androidx.emoji2:emoji2:1.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e0289c3568d06e11a82d2a85122dcff2/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+97-->[androidx.emoji2:emoji2:1.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e0289c3568d06e11a82d2a85122dcff2/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+98                android:value="androidx.startup" />
+98-->[androidx.emoji2:emoji2:1.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e0289c3568d06e11a82d2a85122dcff2/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+99            <meta-data
+99-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/jun/.gradle/caches/8.11.1/transforms/d0201ddb6b0d6115a7483fd921f3c9d1/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+100-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/jun/.gradle/caches/8.11.1/transforms/d0201ddb6b0d6115a7483fd921f3c9d1/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+101                android:value="androidx.startup" />
+101-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/jun/.gradle/caches/8.11.1/transforms/d0201ddb6b0d6115a7483fd921f3c9d1/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+104                android:value="androidx.startup" />
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+105        </provider>
+106
+107        <receiver
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+108            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+109            android:directBootAware="false"
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+110            android:enabled="true"
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+111            android:exported="true"
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+112            android:permission="android.permission.DUMP" >
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+114                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+117                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+120                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+123                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/jun/.gradle/caches/8.11.1/transforms/c1f794645673611f746dc4df51d897cf/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+124            </intent-filter>
+125        </receiver>
+126
+127        <service
+127-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e165f819dcb8ec3074f2c1bd53851ffc/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:29:9-35:19
+128            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+128-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e165f819dcb8ec3074f2c1bd53851ffc/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:30:13-103
+129            android:exported="false" >
+129-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e165f819dcb8ec3074f2c1bd53851ffc/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:31:13-37
+130            <meta-data
+130-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e165f819dcb8ec3074f2c1bd53851ffc/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:32:13-34:39
+131                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+131-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e165f819dcb8ec3074f2c1bd53851ffc/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:33:17-94
+132                android:value="cct" />
+132-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/jun/.gradle/caches/8.11.1/transforms/e165f819dcb8ec3074f2c1bd53851ffc/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:34:17-36
+133        </service>
+134        <service
+134-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/jun/.gradle/caches/8.11.1/transforms/bf1704db7170480436bb0aff59e9c293/transformed/transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
+135            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+135-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/jun/.gradle/caches/8.11.1/transforms/bf1704db7170480436bb0aff59e9c293/transformed/transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
+136            android:exported="false"
+136-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/jun/.gradle/caches/8.11.1/transforms/bf1704db7170480436bb0aff59e9c293/transformed/transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
+137            android:permission="android.permission.BIND_JOB_SERVICE" >
+137-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/jun/.gradle/caches/8.11.1/transforms/bf1704db7170480436bb0aff59e9c293/transformed/transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
+138        </service>
+139
+140        <receiver
+140-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/jun/.gradle/caches/8.11.1/transforms/bf1704db7170480436bb0aff59e9c293/transformed/transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
+141            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+141-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/jun/.gradle/caches/8.11.1/transforms/bf1704db7170480436bb0aff59e9c293/transformed/transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
+142            android:exported="false" />
+142-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/jun/.gradle/caches/8.11.1/transforms/bf1704db7170480436bb0aff59e9c293/transformed/transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
+143    </application>
+144
+145</manifest>

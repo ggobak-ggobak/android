@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/anim_slide_in_left.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/drawable_logo_image.png.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/drawable/logo_image.png"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/drawable_ic_calendar.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/anim_slide_out_right.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/layout_map.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/layout/map.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/drawable_calend.png.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/drawable/calend.png"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/drawable_cal.png.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/drawable/cal.png"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/layout_login.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/layout/login.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/anim_slide_out_left.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/layout_signup.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/layout/signup.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/drawable_claa.png.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/drawable/claa.png"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/xml_backup_rules.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/anim_slide_in_right.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/layout_calendar.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/layout/calendar.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.inhatc.ggobak.app-debug-36:/layout_calendar.xml.flat",
+        "source": "com.inhatc.ggobak.app-main-38:/layout/calendar.xml"
+    },
+    {
+        "merged": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-debug-36:/layout_item_expense.xml.flat",
+        "source": "/Users/jun/.gradle/daemon/8.11.1/com.inhatc.ggobak.app-main-38:/layout/item_expense.xml"
+    }
+]
